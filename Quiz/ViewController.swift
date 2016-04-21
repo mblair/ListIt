@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     var currentQuestionIndex: Int = 0
     
     @IBAction func showNextQuestion(sender: AnyObject) {
-        ++currentQuestionIndex
+        currentQuestionIndex = currentQuestionIndex + 1
         if currentQuestionIndex == questions.count {
             currentQuestionIndex = 0
         }
