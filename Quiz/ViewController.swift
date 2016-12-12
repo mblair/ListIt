@@ -21,7 +21,7 @@ class ViewController: UIViewController {
                              "Montpelier"]
     var currentQuestionIndex: Int = 0
     
-    @IBAction func showNextQuestion(sender: AnyObject) {
+    @IBAction func showNextQuestion(_ sender: AnyObject) {
         currentQuestionIndex = currentQuestionIndex + 1
         if currentQuestionIndex == questions.count {
             currentQuestionIndex = 0
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         answerLabel.text = "???"
     }
     
-    @IBAction func showAnswer(sender: AnyObject) {
+    @IBAction func showAnswer(_ sender: AnyObject) {
         let answer: String = answers[currentQuestionIndex]
         answerLabel.text = answer
     }
