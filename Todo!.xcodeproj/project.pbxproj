@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C9DC04771C3317CE0012ADCA /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9DC04771C3317CE0012ADCA /* Todo!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DC047A1C3317CE0012ADCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9DC047C1C3317CE0012ADCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C9DC047F1C3317CE0012ADCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		C9DC046E1C3317CE0012ADCA = {
 			isa = PBXGroup;
 			children = (
-				C9DC04791C3317CE0012ADCA /* Quiz */,
+				C9DC04791C3317CE0012ADCA /* Todo! */,
 				C9DC04781C3317CE0012ADCA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		C9DC04781C3317CE0012ADCA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9DC04771C3317CE0012ADCA /* Quiz.app */,
+				C9DC04771C3317CE0012ADCA /* Todo!.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C9DC04791C3317CE0012ADCA /* Quiz */ = {
+		C9DC04791C3317CE0012ADCA /* Todo! */ = {
 			isa = PBXGroup;
 			children = (
 				C9DC047A1C3317CE0012ADCA /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				C9DC04831C3317CE0012ADCA /* LaunchScreen.storyboard */,
 				C9DC04861C3317CE0012ADCA /* Info.plist */,
 			);
-			path = Quiz;
+			path = "Todo!";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C9DC04761C3317CE0012ADCA /* Quiz */ = {
+		C9DC04761C3317CE0012ADCA /* Todo! */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9DC04891C3317CE0012ADCA /* Build configuration list for PBXNativeTarget "Quiz" */;
+			buildConfigurationList = C9DC04891C3317CE0012ADCA /* Build configuration list for PBXNativeTarget "Todo!" */;
 			buildPhases = (
 				C9DC04731C3317CE0012ADCA /* Sources */,
 				C9DC04741C3317CE0012ADCA /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = Quiz;
+			name = "Todo!";
 			productName = Quiz;
-			productReference = C9DC04771C3317CE0012ADCA /* Quiz.app */;
+			productReference = C9DC04771C3317CE0012ADCA /* Todo!.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,7 +91,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Matthew Blair";
 				TargetAttributes = {
 					C9DC04761C3317CE0012ADCA = {
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C9DC04721C3317CE0012ADCA /* Build configuration list for PBXProject "Quiz" */;
+			buildConfigurationList = C9DC04721C3317CE0012ADCA /* Build configuration list for PBXProject "Todo!" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C9DC04761C3317CE0012ADCA /* Quiz */,
+				C9DC04761C3317CE0012ADCA /* Todo! */,
 			);
 		};
 /* End PBXProject section */
@@ -176,12 +176,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -228,12 +230,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -267,8 +271,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 288UX42PUU;
-				INFOPLIST_FILE = Quiz/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_FILE = "$(SRCROOT)/Todo!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.mblair.Quiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,8 +285,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 288UX42PUU;
-				INFOPLIST_FILE = Quiz/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_FILE = "$(SRCROOT)/Todo!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.mblair.Quiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,7 +297,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C9DC04721C3317CE0012ADCA /* Build configuration list for PBXProject "Quiz" */ = {
+		C9DC04721C3317CE0012ADCA /* Build configuration list for PBXProject "Todo!" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9DC04871C3317CE0012ADCA /* Debug */,
@@ -302,7 +306,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9DC04891C3317CE0012ADCA /* Build configuration list for PBXNativeTarget "Quiz" */ = {
+		C9DC04891C3317CE0012ADCA /* Build configuration list for PBXNativeTarget "Todo!" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9DC048A1C3317CE0012ADCA /* Debug */,
